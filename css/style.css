@@ -1,21 +1,21 @@
 body{
-    background: orchid;
+ 
     font-family: sans-serif;
-    display: grid;
-    align-content: center;
-    text-align: center;
+
+    
 }
-h1{
-    font-size: 80px;
+h2{
+    font-size: 65px;
     text-transform: uppercase;
 
 }
 
 p{
-    color: white;
+    font-size: 45px;
+}
+p{
     font-size: 40px;
 }
-
 ul{
     max-width: 600px;
     margin: 0 auto;
