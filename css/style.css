@@ -72,23 +72,27 @@ main {
 
 section {
     padding: 3em 1em;
+    background:rgb(192, 144, 202);
+    font-size: 25px;
+
 }
 
 /* HERO */
 
-.hero {
-    display: gird;
+.page-sub  .hero {
+    display: grid;
     align-content: center;
     text-align: center;
-    background: white;
-    min-height: 50vh;
-    color: black;
+    background: grey;
+    min-height: 30vh;
+    
 
 }
 
 .hero h2 {
     max-width: 600px;
     margin: 1em auto;
+
 }
 
 /*LISTS */
@@ -99,6 +103,19 @@ section {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1em;
 }
+
+
+@media (max-width:767px) {
+.lists {
+    grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+
+
+
+
 
 
 
