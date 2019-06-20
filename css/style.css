@@ -66,14 +66,14 @@ footer nav ul {
 main {
     padding: 0 0 3em 0;
     min-height: 80vh;
+
 }
 
 /* SECTIONS */
 
 section {
     padding: 3em 1em;
-    background:rgb(192, 144, 202);
-    font-size: 25px;
+    background: white;
 
 }
 
@@ -85,6 +85,7 @@ section {
     text-align: center;
     background: grey;
     min-height: 30vh;
+    font-size: 50px;
     
 
 }
@@ -92,7 +93,12 @@ section {
 .hero h2 {
     max-width: 600px;
     margin: 1em auto;
+    font-size: 60px;
 
+}
+
+.hero h3 {
+font-size: 30px;
 }
 
 /*LISTS */
