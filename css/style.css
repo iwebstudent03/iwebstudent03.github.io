@@ -10,13 +10,13 @@ body {
 
 a{
     text-decoration: none;
-    color: violet;
+    color: rgb(228, 132, 148);
 }
 
 /* HEADER */
 header {
-    background: teal;
-    color: white;
+    background: grey;
+    color: rgb(128, 177, 128);
     padding: 1em 2em;
 }
 header a {
@@ -26,6 +26,26 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+}
+
+
+
+/* BLOG ARCHIVES */
+
+.blog-archives {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.blog-entry {
+    border: 1pxsolid #ddd;
+    padding: 2em;
+    margin:2em 0;
+}
+
+.date {
+    opacity: .5;
+    font-size: .8em;
 }
 
 /* SITE ID */
@@ -79,27 +99,48 @@ section {
 
 /* HERO */
 
-.page-sub  .hero {
+.hero {
     display: grid;
     align-content: center;
     text-align: center;
-    background: grey;
-    min-height: 30vh;
+    font-family: 'Modak', cursive;
     font-size: 50px;
-    
+}
 
+.page-home .hero {
+    background-image: url(https://picsum.photos/id/106/1600/800);
+    background-position: center ;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+.page-sub  .hero {
+    min-height: 30vh;
+    background-image: url(https://picsum.photos/id/143/1600/800);
+    background-size: cover;
 }
 
 .hero h2 {
     max-width: 600px;
     margin: 1em auto;
     font-size: 60px;
-
+    color: white;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Modak', cursive;
 }
 
 .hero h3 {
-font-size: 30px;
+    font-size: 30px;
+    color: white;
+    align-content: center;
+    max-width: 600px;
+    margin: 1em auto;
 }
+
+
+
+
 
 /*LISTS */
 .lists {
