@@ -103,7 +103,7 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    font-family: 'Modak', cursive;
+    font-family: 'Montserrat', cursive;
     font-size: 50px;
 }
 
@@ -151,13 +151,24 @@ section {
     grid-column-gap: 1em;
 }
 
-
 @media (max-width:767px) {
-.lists {
-    grid-template-columns: 1fr 1fr;
-
+    .lists {
+        grid-template-columns: 1fr 1fr;
+    
+        }
     }
+
+    
+/*CUSTOM UI DESIGN*/
+
+.ui-designs {
+    text-align: center;
 }
+
+.ui-designs img {
+    max-width: 200px;
+}
+
 
 
 
